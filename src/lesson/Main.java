@@ -26,6 +26,10 @@ public class Main {
 			int kokugo = 70;
 			int sansu = 75;
 			System.out.println((double)(kokugo + sansu) / 2);
+			
+			int num1 = 3;
+			int num2 = 5;
+			System.out.println("足し算の結果は" + (num1+num2) + "です。");
 	}
 
 }
