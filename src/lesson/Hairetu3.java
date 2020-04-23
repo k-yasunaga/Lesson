@@ -16,7 +16,7 @@ public class Hairetu3 {
 		System.out.println(sum);
 			System.out.println();//改行
 
-	 int count =0;
+		int count =0;
 		for(int N:nums) {
 			if(N>=5) {
 				count++;
