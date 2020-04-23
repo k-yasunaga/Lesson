@@ -27,7 +27,6 @@ public class ifsample {
 			default :
 				System.out.println("エラー");
 				break;
-				
 				/*System.out.println("コーラ");
 				break;
 			case 2:
