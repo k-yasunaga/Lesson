@@ -4,22 +4,26 @@ public class FizzBuzz {
 
 	public static void main(String[] args) {
 		for(int i=1;i<=30;i++) {
-			showFizzBuzz(i);
+			System.out.println(getFizzBuzz(i));
 		}
 	}
 
-	public static void showFizzBuzz(int i) {
+	public static String getFizzBuzz(int i) {
 		if(i%3==0 && i%5==0) {
-				System.out.println("FizzBuzz");
+			return "FizzBuzz";
+				//System.out.println("FizzBuzz");
 			}
 			else if(i%5==0) {
-				System.out.println("Buzz");
+				return"Buzz";
+				//System.out.println("Buzz");
 			}
 			else if(i%3==0) {
-				System.out.println("Fizz");
+				return "Fizz";
+				//System.out.println("Fizz");
 			}
 			else {
-			System.out.println(i);
+				return i+"";
+			//System.out.println(i);
 			}
 		}
-	}
+}
