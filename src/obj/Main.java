@@ -4,31 +4,31 @@ public class Main {
 
 	public static void main(String[] args) {
 			Sankaku M = new Sankaku(10,12);
-			
+
 			M.menseki();
 
 			shouhin s =new shouhin("リンゴ",100);
-			
+
 			s.show();
 			s.showtax();
-			
+
 			shouhin s1 =new shouhin("みかん",150);
 
 			en e=new en();
 			e.hankei = 10;
 			e.enshu();
 			e.menseki();
-			
+
 			Uriage u =new Uriage();
 			u.kosuu =5;
 			u.shouhin = s;
 			u.show();
-			
+
 			Uriage u1 =new Uriage();
 			u1.kosuu =3;
 			u1.shouhin = s1;
 			u1.showUriage();
-			
+
 		Densimoney d= new Densimoney();
 		d.charge(1000);
 		d.buy(500);
@@ -36,14 +36,11 @@ public class Main {
 		System.out.println(d.kingaku +"円"+d.point +"p");
 
 
-		Hizike h= new Hizike();
-		h.day = 27;
-		h.month= 4;
+		Hizike h= new Hizike(4,27);
+		
 		h.show();
-		Hizike h1= new Hizike();
-		h1.day = 7;
-		h1.month= 5;
-		h1.show();
+		nitizi n = new nitizi(4,21,12,4);
+		n.showjikan();
 	}
 
 }

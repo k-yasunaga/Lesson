@@ -1,10 +1,14 @@
 package obj;
 
 public class Hizike {
-	int day;
-	int month;
+	int tuki;
+	int hi;
+	public Hizike(int tuki,int hi) {
+		this.tuki = tuki;
+		this.hi =hi;
+	}
 
 	public void show() {
-		System.out.println(month + "月" +day +"日");
+		System.out.println(tuki + "月" +hi +"日");
 	}
 }

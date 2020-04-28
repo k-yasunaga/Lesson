@@ -7,9 +7,7 @@ public class Sankaku {
 		this.teihen=t;
 		this.takasa =T;
 	}
-	public Sankaku() {
-		this(10,10);
-	}
+
 	public void menseki() {
 		System.out.println(teihen * takasa /2);
 	}
