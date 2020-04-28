@@ -3,22 +3,17 @@ package obj;
 public class Main {
 
 	public static void main(String[] args) {
-			Sankaku M = new Sankaku();
-
-			M.takasa = 10;
-			M.teihen = 20;
+			Sankaku M = new Sankaku(10,12);
+			
 			M.menseki();
 
-			shouhin s =new shouhin();
-			s.name = "リンゴ";
-			s.price = 100;
+			shouhin s =new shouhin("リンゴ",100);
+			
 			s.show();
 			s.showtax();
 			
-			shouhin s1 =new shouhin();
-			s1.name = "みかん";
-			s1.price = 150;
-			
+			shouhin s1 =new shouhin("みかん",150);
+
 			en e=new en();
 			e.hankei = 10;
 			e.enshu();

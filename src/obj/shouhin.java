@@ -3,6 +3,11 @@ package obj;
 public class shouhin {
 	String name;
 	int price;
+	
+	public shouhin(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
 	public void show() {
 		System.out.println(name+" "+price +"円");
 	}
