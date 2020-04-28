@@ -1,12 +1,21 @@
 package obj;
 
-public class SeitoMain {
+import java.util.ArrayList;
 
+public class SeitoMain {
+	
 	public static void main(String[] args) {
-		Seito s= new Seito();
-		s.show();
-		System.out.println("合計は"+s.goukei()+"点");
-		System.out.println("平均は"+s.heikin()+"点");
+		
+		ArrayList<chugakusei>slist= new ArrayList<chugakusei>();
+		 slist.add(new chugakusei("田中",50,70,90,40));
+		 slist.add(new chugakusei("山田",60,70,80,100));
+		 slist.add(new chugakusei("佐藤",40,80,60,50));
+		 int sum=0;
+		 for(chugakusei c:slist) {
+			 sum+=c.goukei();
+		 }
+		System.out.println("合計は"+sum+"点");
+
 	}
 
 
