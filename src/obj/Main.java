@@ -11,13 +11,16 @@ public class Main {
 
 			s.show();
 			s.showtax();
-
+			
+			book b = new book("それから",500,"夏目漱石");
+			
+			
 			shouhin s1 =new shouhin("みかん",150);
 
-			en e=new en();
-			e.hankei = 10;
-			e.enshu();
-			e.menseki();
+//			en e=new en();
+//			e.hankei = 10;
+//			e.enshu();
+//			e.menseki();
 
 			Uriage u =new Uriage();
 			u.kosuu =5;
@@ -26,7 +29,8 @@ public class Main {
 
 			Uriage u1 =new Uriage();
 			u1.kosuu =3;
-			u1.shouhin = s1;
+			u1.shouhin = b;
+			u1.show();
 			u1.showUriage();
 
 		Densimoney d= new Densimoney();

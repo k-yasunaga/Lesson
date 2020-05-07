@@ -1,9 +1,8 @@
 package keisyo;
 
-public class Hero {
-	String name="ミナト";
-	int hp=100;
-	public Hero(String name) {
+public class Hero extends character {
+
+	public Hero() {
 		this.name =name;
 	System.out.println("heroのコンストラクタ");
 }
