@@ -18,7 +18,7 @@ public class event {
 	}
 
 	public void show() {
-
+		System.out.println(this.name);
 		SimpleDateFormat f=new SimpleDateFormat("YYYY年MM月dd日");
 		String S = f.format(hi);
 		System.out.println(S);
