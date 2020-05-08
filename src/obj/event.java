@@ -8,7 +8,6 @@ import java.util.List;
 public class event {
 	String name;
 	Date hi  = new Date();
-	sankasya s = new sankasya(name, 0);
 	public event(String name) {
 		this.name = name;
 	}
