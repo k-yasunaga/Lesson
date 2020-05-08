@@ -9,7 +9,7 @@ public class cd extends Item{
 	@Override
 	public int getprice() {
 		int sum =300;
-		for(int i=2;i<=days;i++) {
+		for(int i=2;i<=getDays();i++) {
 			sum+=100;
 		}
 		return sum;

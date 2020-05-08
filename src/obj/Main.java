@@ -37,7 +37,7 @@ public class Main {
 		d.charge(1000);
 		d.buy(500);
 		d.change();
-		System.out.println(d.kingaku +"円"+d.point +"p");
+		System.out.println(d.getKingaku() +"円"+d.getPoint() +"p");
 
 
 		Hizike h= new Hizike(4,27);
