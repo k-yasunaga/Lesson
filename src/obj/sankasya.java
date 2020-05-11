@@ -20,7 +20,13 @@ public class sankasya {
 		this.age = age;
 	}
 
-	public sankasya(String name, int age) {
+	public sankasya(String name, int age) throws sankasyaException{
+		if(age<0) {
+			throw new sankasyaException("年齢が不正です");
+		}
+		if(name.equals("")) {
+			throw new sankasyaException("名前が空です");
+		}
 		this.name = name;
 		this.age = age;
 	}
