@@ -94,4 +94,7 @@ public class shouhinDAO {
 		}
 		return list;
 	}
+
+
+	
 }
